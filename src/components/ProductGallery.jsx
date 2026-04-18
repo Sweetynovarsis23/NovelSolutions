@@ -15,7 +15,7 @@ const productCategories = [
   },
   { 
     title: 'Surface Care', 
-    icon: 'sparkles',
+    icon: 'cleaning_services',
     description: 'Disinfectants and specialized toilet cleaners for heavy duties.' 
   },
   { 
