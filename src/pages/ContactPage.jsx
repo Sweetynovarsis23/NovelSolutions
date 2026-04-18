@@ -10,8 +10,8 @@ const ContactPage = () => {
   return (
     <div className="bg-surface min-h-screen">
       {/* Header Section */}
-      <section className="pt-40 pb-20 px-8 max-w-screen-2xl mx-auto flex flex-col items-center text-center">
-        <span className="inline-block bg-tertiary-fixed text-on-tertiary-fixed-variant px-3 py-1 rounded text-[10px] font-black tracking-widest uppercase mb-6 shadow-sm">
+      <section className="pt-32 md:pt-40 pb-16 md:pb-20 px-6 md:px-8 max-w-screen-2xl mx-auto flex flex-col items-center text-center">
+        <span className="inline-block bg-tertiary-fixed text-on-tertiary-fixed-variant px-3 py-1 rounded text-[10px] font-black tracking-widest uppercase mb-4 md:mb-6 shadow-sm">
           24/7 SUPPORT NETWORK
         </span>
         <h1 className="font-headline text-5xl md:text-7xl font-extrabold text-primary mb-6 tracking-tight">
@@ -79,8 +79,8 @@ const ContactPage = () => {
           </div>
 
           {/* Form Column */}
-          <div className="lg:w-7/12 bg-white rounded-[3rem] p-12 lg:p-16 shadow-xl shadow-blue-900/5 border border-slate-100">
-            <h2 className="text-3xl font-extrabold text-primary font-headline mb-4 tracking-tight">Connect with Us</h2>
+          <div className="lg:w-7/12 bg-white rounded-[2rem] md:rounded-[3rem] p-8 md:p-12 lg:p-16 shadow-xl shadow-blue-900/5 border border-slate-100">
+            <h2 className="text-2xl md:text-3xl font-extrabold text-primary font-headline mb-4 tracking-tight">Connect with Us</h2>
             <p className="text-secondary font-medium mb-10 leading-relaxed">
               Have a general inquiry, partnership request, or need immediate compliance assistance? Submit your details below and the appropriate department will respond.
             </p>

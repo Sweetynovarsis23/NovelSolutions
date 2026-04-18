@@ -55,8 +55,13 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-20 pt-10 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="text-slate-400 text-xs font-medium">© 2024 NovelSolutions Logistics. Pristine Efficiency in Motion.</div>
+        <div className="mt-20 pt-10 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center gap-6 relative">
+          <div className="text-slate-400 text-xs font-medium text-center md:text-left">
+            © 2026 NovelSolutions Logistics. Pristine Efficiency in Motion.
+          </div>
+          <div className="text-slate-400 text-xs text-center md:absolute md:left-1/2 md:-translate-x-1/2">
+            Powered by <span className="font-bold">NovarsisTech Pvt. Ltd.</span>
+          </div>
           <div className="text-[10px] text-slate-400 font-bold uppercase tracking-widest border border-slate-200 px-3 py-1 rounded">
             Certified ISO 9001:2015 Logistics Operator
           </div>

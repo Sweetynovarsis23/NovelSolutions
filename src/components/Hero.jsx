@@ -41,43 +41,28 @@ const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-[#0a192f] via-[#0a192f]/80 to-transparent"></div>
       </div>
 
-      <div className="relative z-10 max-w-screen-2xl mx-auto px-8 w-full">
-        <div className="max-w-3xl">
+      <div className="relative z-10 max-w-screen-2xl mx-auto px-6 md:px-8 w-full">
+        <div className="max-w-4xl">
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="inline-block px-4 py-1.5 mb-8 bg-tertiary-fixed text-primary font-headline text-xs font-extrabold tracking-[0.15em] uppercase rounded-sm"
+            className="inline-block px-4 py-1.5 mb-6 md:mb-8 bg-[#00ff88] text-slate-900 font-headline text-xs font-extrabold tracking-[0.15em] uppercase rounded-sm shadow-lg shadow-[#00ff88]/20"
           >
             Bulk Export Specialists
           </motion.div>
-          
-          <motion.h1 
-            initial={{ opacity: 0, x: -30 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.1 }}
-            className="font-headline text-6xl md:text-8xl font-extrabold text-white leading-[1.05] tracking-tight mb-8"
-          >
-            Pristine Efficiency <br/>
-            <span className="text-on-primary-container">In Global Motion.</span>
-          </motion.h1>
-          
-          <motion.p 
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.3 }}
-            className="text-xl text-white/80 max-w-xl mb-12 leading-relaxed font-medium"
-          >
+          <h1 className="text-5xl sm:text-6xl md:text-8xl font-extrabold text-white font-headline tracking-tighter mb-6 leading-[1.05]">
+            Pristine <br/>Efficiency <br/><span className="text-blue-300">In Global Motion.</span>
+          </h1>
+          <p className="text-lg md:text-xl text-blue-100 max-w-xl font-medium leading-relaxed mb-8 md:mb-12">
             NovelSolutions specializes in the cross-border distribution of high-performance home cleaning products, ensuring every shipment arrives with clinical precision.
-          </motion.p>
-          
-          <div className="flex flex-wrap gap-5">
-            <Link to="/quote" className="editorial-gradient text-white px-10 py-5 rounded-xl font-bold shadow-2xl flex items-center gap-2 group transition-all hover:scale-105 active:scale-95">
-              Start Your Shipment
-              <span className="material-symbols-outlined group-hover:translate-x-2 transition-transform">arrow_forward</span>
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
+            <Link to="/products" className="editorial-gradient text-white px-8 py-4 md:py-5 rounded-xl font-bold text-center text-lg shadow-[0_0_40px_-10px_rgba(56,189,248,0.5)] transition-all hover:scale-105 active:scale-95 group">
+              Explore Catalog
             </Link>
-            <button className="glass-panel text-primary px-10 py-5 rounded-xl font-bold border border-white/20 transition-all hover:bg-white">
-              Our Capabilities
-            </button>
+            <Link to="/contact" className="bg-white/10 backdrop-blur-md text-white border border-white/20 px-8 py-4 md:py-5 rounded-xl font-bold text-center text-lg hover:bg-white/20 transition-all">
+              Partner With Us
+            </Link>
           </div>
         </div>
       </div>

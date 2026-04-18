@@ -73,15 +73,15 @@ const ProductsPage = () => {
   return (
     <div className="bg-white min-h-screen">
       {/* Header Section */}
-      <section className="pt-40 pb-20 px-8 max-w-screen-2xl mx-auto flex flex-col lg:flex-row justify-between items-start gap-12">
+      <section className="pt-32 md:pt-40 pb-16 md:pb-20 px-6 md:px-8 max-w-screen-2xl mx-auto flex flex-col lg:flex-row justify-between items-start gap-12">
         <div className="max-w-3xl">
           <div className="text-sm font-extrabold text-primary tracking-[0.2em] mb-6 uppercase opacity-70">
             NOVEL SOLUTION PRODUCT LINE
           </div>
-          <h1 className="font-headline text-6xl md:text-8xl font-extrabold text-primary leading-[1.05] tracking-tighter mb-10">
+          <h1 className="font-headline text-5xl sm:text-6xl md:text-8xl font-extrabold text-primary leading-[1.05] tracking-tighter mb-8 md:mb-10">
             Professional <br/> Performance.
           </h1>
-          <p className="text-on-surface-variant text-xl leading-relaxed max-w-xl font-medium">
+          <p className="text-on-surface-variant text-lg md:text-xl leading-relaxed max-w-xl font-medium">
             Setting the global standard for essential home cleaning. Our high-performance NOVEL formulations are engineered for maximum efficiency in every batch.
           </p>
         </div>
@@ -112,9 +112,9 @@ const ProductsPage = () => {
       </section>
 
       {/* Filter Section */}
-      <section className="px-8 max-w-screen-2xl mx-auto mb-16 border-b border-slate-100 pb-12">
+      <section className="px-6 md:px-8 max-w-screen-2xl mx-auto mb-12 md:mb-16 border-b border-slate-100 pb-12">
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
-          <div className="flex bg-slate-50 p-1.5 rounded-2xl border border-slate-100">
+          <div className="flex flex-wrap justify-center md:justify-start bg-slate-50 p-1.5 rounded-2xl border border-slate-100">
             {['All Products', 'Cleaning Liquids', 'Hand Care', 'Dish Care'].map(cat => (
               <button 
                 key={cat}

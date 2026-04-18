@@ -17,13 +17,13 @@ const ServicesPage = () => {
   return (
     <div className="bg-surface min-h-screen">
       {/* Hero Section */}
-      <section className="relative min-h-[716px] flex items-center overflow-hidden bg-surface pt-32 pb-20">
-        <div className="max-w-7xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10 w-full">
+      <section className="relative min-h-[716px] flex items-center overflow-hidden bg-surface pt-28 md:pt-32 pb-16 md:pb-20">
+        <div className="max-w-7xl mx-auto px-6 md:px-8 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10 w-full">
           <div className="lg:col-span-7">
             <span className="inline-block bg-tertiary-fixed text-on-tertiary-fixed-variant px-3 py-1 rounded text-[10px] font-black tracking-widest uppercase mb-6 shadow-sm">
               GLOBAL OPERATIONS
             </span>
-            <h1 className="text-5xl lg:text-7xl font-extrabold text-primary font-headline tracking-tighter mb-8 leading-[1.05]">
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold text-primary font-headline tracking-tighter mb-6 md:mb-8 leading-[1.05]">
               Pristine Efficiency <br/>In Every <span className="text-primary-container">Batch.</span>
             </h1>
             <p className="text-xl text-secondary max-w-xl font-medium leading-relaxed mb-10">
@@ -48,11 +48,11 @@ const ServicesPage = () => {
       </section>
 
       {/* Services Bento Grid */}
-      <section className="py-24 bg-surface-container-low border-t border-slate-100">
-        <div className="max-w-7xl mx-auto px-8">
-          <div className="mb-16">
-            <h2 className="text-4xl font-extrabold text-primary font-headline mb-4 tracking-tight">Logistics Reimagined</h2>
-            <p className="text-secondary font-medium max-w-2xl text-lg">
+      <section className="py-16 md:py-24 bg-surface-container-low border-t border-slate-100">
+        <div className="max-w-7xl mx-auto px-6 md:px-8">
+          <div className="mb-12 md:mb-16">
+            <h2 className="text-3xl md:text-4xl font-extrabold text-primary font-headline mb-4 tracking-tight">Logistics Reimagined</h2>
+            <p className="text-secondary font-medium max-w-2xl text-base md:text-lg">
               Specialized solutions for essential home care cargo, from industrial strength floor cleaners to commercial hardware distribution.
             </p>
           </div>
