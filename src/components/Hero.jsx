@@ -67,7 +67,7 @@ const Hero = () => {
             transition={{ delay: 0.3 }}
             className="text-xl text-white/80 max-w-xl mb-12 leading-relaxed font-medium"
           >
-            NovelSolution specializes in the cross-border distribution of high-performance home cleaning products, ensuring every shipment arrives with clinical precision.
+            NovelSolutions specializes in the cross-border distribution of high-performance home cleaning products, ensuring every shipment arrives with clinical precision.
           </motion.p>
           
           <div className="flex flex-wrap gap-5">

@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-screen-2xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 border-t border-slate-200 pt-16">
           <div className="space-y-8">
-            <div className="text-2xl font-black text-primary font-headline tracking-tighter">NovelSolution</div>
+            <div className="text-2xl font-black text-primary font-headline tracking-tighter">NovelSolutions</div>
             <p className="text-on-surface-variant font-medium leading-relaxed max-w-xs">
               Connecting quality home cleaning formulations with global consumers. Pristine efficiency in motion, from production to port.
             </p>
@@ -56,7 +56,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-20 pt-10 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="text-slate-400 text-xs font-medium">© 2024 NovelSolution Logistics. Pristine Efficiency in Motion.</div>
+          <div className="text-slate-400 text-xs font-medium">© 2024 NovelSolutions Logistics. Pristine Efficiency in Motion.</div>
           <div className="text-[10px] text-slate-400 font-bold uppercase tracking-widest border border-slate-200 px-3 py-1 rounded">
             Certified ISO 9001:2015 Logistics Operator
           </div>

@@ -30,7 +30,7 @@ const ContactPage = () => {
           <div className="lg:w-5/12 flex flex-col gap-10">
             {/* HQ Visual */}
             <div className="rounded-[3rem] overflow-hidden shadow-2xl relative h-80">
-              <img src={hqImg} alt="NovelSolution Corporate Headquarters" className="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
+              <img src={hqImg} alt="NovelSolutions Corporate Headquarters" className="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
               <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-primary/90 to-transparent p-8">
                 <div className="text-white text-[10px] font-black tracking-widest uppercase mb-1 opacity-80">MAIN HUB</div>
                 <h3 className="text-white font-bold text-xl font-headline">Houston Terminal HQ</h3>
@@ -70,7 +70,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <p className="text-[10px] font-black text-blue-200 tracking-widest uppercase mb-1">Business Inquiries</p>
-                    <p className="font-medium text-lg">solutions@novelsolution.com</p>
+                    <p className="font-medium text-lg">solutions@NovelSolutions.com</p>
                     <p className="text-blue-100 text-sm">Target response time: 2 hours</p>
                   </div>
                 </div>

@@ -31,7 +31,7 @@ const Navbar = () => {
     <nav className={`fixed top-0 w-full z-50 transition-all duration-500 ${isNavSolid ? 'bg-white/90 backdrop-blur-md shadow-md h-20' : 'bg-transparent h-24'}`}>
       <div className="flex justify-between items-center px-8 h-full max-w-screen-2xl mx-auto w-full">
         <Link to="/" className={`text-2xl font-black tracking-tighter font-headline transition-all duration-300 ${isNavSolid ? 'text-primary' : 'text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.4)]'}`}>
-          NovelSolution
+          NovelSolutions
         </Link>
         
         <div className="hidden md:flex items-center space-x-10">
